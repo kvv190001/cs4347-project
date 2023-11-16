@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WeebWatch - Episode Detail</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="header">
+        <div class="header-content">
+            <a href="#" class="logo">WeebWatch</a>
+        </div>
+    </div>
+    <div class="container">
+        <div class="episode-details">
+            <h2>Show Name: Anime XYZ</h2>
+            <h3>Episode Title: The Rising Star</h3>
+            <p>Episode Number: 5</p>
+            <p>Rating: 4.5/5</p>
+            <p>Date Added: 2023-11-04</p>
+        </div>
+
+        <div class="review-form">
+            <h3>Rate and Review This Episode</h3>
+            <form id="ratingForm">
+                <div class="star-rating">
+                    <input type="radio" id="star1" name="rating" value="1"><label for="star1">&#9733;</label>
+                    <input type="radio" id="star2" name="rating" value="2"><label for="star2">&#9733;</label>
+                    <input type="radio" id="star3" name="rating" value="3"><label for="star3">&#9733;</label>
+                    <input type="radio" id="star4" name="rating" value="4"><label for="star4">&#9733;</label>
+                    <input type="radio" id="star5" name="rating" value="5"><label for="star5">&#9733;</label>
+                </div>
+                <label for="review">Your Review:</label>
+                <textarea id="review" name="review" rows="5"></textarea>
+                <input type="submit" value="Submit Review">
+            </form>
+        </div>
+    </div>
+
+    <script src="./scripts/Episode.js"></script>
+</body>
+
+</html>
