@@ -1,5 +1,5 @@
 <?php
-include 'db_connect.php'; // Include your DB connection script
+include 'db_connect.php'; // Include DB connection script
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Get username and password from the form
