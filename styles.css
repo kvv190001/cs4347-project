@@ -175,3 +175,8 @@ input[type="submit"]:hover {
 .star-rating label:hover ~ label {
     color: #ffca08;
 }
+
+.fillerspan{
+    display: inline;
+    justify-content: space-around;
+}
