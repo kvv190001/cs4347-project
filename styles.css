@@ -104,6 +104,8 @@ h2 {
 }
 .show-info {
     padding: 10px;
+    display: flex;
+    justify-content: center;
 }
 .show-title {
     font-size: 18px;

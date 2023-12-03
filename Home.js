@@ -21,6 +21,7 @@ for (let i = 1; i <= 3; i++) {
     history.appendChild(show);
 }
 
+
 function toggleShowDetails(detailsDiv) {
     // Check if the clicked show details are already displayed
     if (detailsDiv.style.display === 'none' || detailsDiv.style.display === '') {
