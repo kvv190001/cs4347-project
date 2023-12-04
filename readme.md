@@ -13,8 +13,8 @@ Have you ever wanted to watch a new anime and see how much filler there is? Did 
 Installation and Setup:
 This setup guide assumes that PHP, MySQL, and a Server Side (we used XAMPP) is set up on your machine!
 
-In your MySQL workbench or command line, run all statements in the create.sql file. Make sure the database you created is called “weebwatchdb”
-Add a  “db_connect.php” file in your local repository and make the following changes where indicated:
+1. In your MySQL workbench or command line, run all statements in the create.sql file. Make sure the database you created is called “weebwatchdb”
+2. Add a  “db_connect.php” file in your local repository and make the following changes where indicated:
 ```php
 <?php
 	$servername = <"YOUR SERVER NAME HERE">;
@@ -30,14 +30,14 @@ Add a  “db_connect.php” file in your local repository and make the following
 	?>
 ```
 
-Once all of these are configured, from your browser of choice, go to ‘http://localhost/cs4347-project/login.html’
+3. Once all of these are configured, from your browser of choice, go to ‘http://localhost/cs4347-project/login.html’
 
-Enter your choice of Username, email, and password. You will not have an account created or be navigated to the front page until all fields are filled. To confirm that your account is created, go to the login page and verify your credentials.
+4. Enter your choice of Username, email, and password. You will not have an account created or be navigated to the front page until all fields are filled. To confirm that your account is created, go to the login page and verify your credentials.
  
-From there, you will be navigated to you homepage. To leave a review, click on the button in the navbar that says “Leave a review!”
+5. From there, you will be navigated to you homepage. To leave a review, click on the button in the navbar that says “Leave a review!”
 
-From there, you will be taken to the review page where you will select your show, episode, rating out of 10, and leave it a review.
+6. From there, you will be taken to the review page where you will select your show, episode, rating out of 10, and leave it a review.
 
-Upon leaving your reviews, you will be naviaged to the home page where you will see your history of reviews and all other reviews placed in the app
+7. Upon leaving your reviews, you will be naviaged to the home page where you will see your history of reviews and all other reviews placed in the app
 
-To add more reviews, repeat step 6 as much as you want. To see all reviews, go back to the homepage at “http://localhost/cs4347-project/home.html” 
+8. To add more reviews, repeat step 6 as much as you want. To see all reviews, go back to the homepage at “http://localhost/cs4347-project/home.html” 
