@@ -2,13 +2,6 @@
 include 'db_connect.php'; 
 
 session_start();
-
-if (!isset($_SESSION['user_id'])) {
-    die(json_encode(['error' => 'User ID not set in session']));
-}
-$user_id = $_SESSION['user_id'];
-
-
 $user_id = $_SESSION['user_id']; 
 
 $stmt = $conn->prepare("SELECT shows.title, episodes.episode_id, reviews.rating, reviews.created_at 
